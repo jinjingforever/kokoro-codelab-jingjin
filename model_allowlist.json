@@ -8,7 +8,7 @@
       "defaultConfig": {
         "topK": 64,
         "topP": 0.95,
-        "backends": ["cpu", "gpu"]
+        "backends": "cpu,gpu"
       },
       "taskTypes": ["llm_chat", "llm_usecase"]
     }
