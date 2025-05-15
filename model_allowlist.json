@@ -1,10 +1,16 @@
 {
   "models": [
     {
-      "name": "model1"
-    },
-    {
-      "name": "model2"
+      "name": "Gemma3-1B-IT",
+      "modelId": "litert-community/Gemma3-1B-IT",
+      "modelFile": "gemma3-1b-it-int4.task",
+      "sizeInBytes": 554661243,
+      "defaultConfig": {
+        "topK": 64,
+        "topP": 0.95,
+        "backends": ["cpu", "gpu"]
+      },
+      "taskTypes": ["llm_chat", "llm_usecase"]
     }
   ]
 }
