@@ -11,7 +11,7 @@
         "topK": 64,
         "topP": 0.95,
         "temperature": 1.0,
-        "backends": "cpu,gpu"
+        "accelerators": "cpu,gpu"
       },
       "taskTypes": ["llm_chat", "llm_usecase"]
     },
@@ -26,7 +26,7 @@
         "topK": 64,
         "topP": 0.95,
         "temperature": 1.0,
-        "backends": "cpu,gpu"
+        "accelerators": "cpu,gpu"
       },
       "taskTypes": ["llm_chat", "llm_usecase"]
     }
