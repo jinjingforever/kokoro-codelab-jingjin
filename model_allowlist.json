@@ -4,7 +4,7 @@
       "name": "Gemma3-1B-IT q8",
       "modelId": "litert-community/Gemma3-1B-IT",
       "modelFile": "Gemma3-1B-IT_multi-prefill-seq_q8_ekv2048.task",
-      "description": "TODO: Some description of Gemma 3 model. 1B parameters with 8-bit quantization",
+      "description": "A variant of [google/Gemma-3-1B-IT](https://huggingface.co/google/Gemma-3-1B-IT) with 8-bit quantization",
       "sizeInBytes": 1073765694,
       "version": "20250514",
       "defaultConfig": {
