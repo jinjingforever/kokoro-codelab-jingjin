@@ -4,7 +4,7 @@
       "name": "Gemma3-1B-IT q8",
       "modelId": "litert-community/Gemma3-1B-IT",
       "modelFile": "Gemma3-1B-IT_multi-prefill-seq_q8_ekv2048.task",
-      "description": "Some description of Gemma 3 model. 1B parameters with 8-bit quantization",
+      "description": "TODO: Some description of Gemma 3 model. 1B parameters with 8-bit quantization",
       "sizeInBytes": 1073765694,
       "version": "20250514",
       "defaultConfig": {
@@ -19,11 +19,26 @@
       "name": "Gemma3-1B-IT q4",
       "modelId": "litert-community/Gemma3-1B-IT",
       "modelFile": "Gemma3-1B-IT_multi-prefill-seq_q4_ekv2048.task",
-      "description": "Some description of Gemma 3 model. 1B parameters with 4-bit quantization",
+      "description": "TODO: Some description of Gemma 3 model. 1B parameters with 4-bit quantization",
       "sizeInBytes": 554661246,
       "version": "20250514",
       "defaultConfig": {
         "topK": 64,
+        "topP": 0.95,
+        "temperature": 1.0,
+        "accelerators": "cpu,gpu"
+      },
+      "taskTypes": ["llm_chat", "llm_usecases"]
+    },
+    {
+      "name": "TinyLlama-1.1B-Chat-v1.0 q8",
+      "modelId": "litert-community/TinyLlama-1.1B-Chat-v1.0",
+      "modelFile": "TinyLlama-1.1B-Chat-v1.0_multi-prefill-seq_q8_ekv1280.task",
+      "description": "TODO: Some description of this model.",
+      "sizeInBytes": 1148331545,
+      "version": "20250514",
+      "defaultConfig": {
+        "topK": 40,
         "topP": 0.95,
         "temperature": 1.0,
         "accelerators": "cpu,gpu"
