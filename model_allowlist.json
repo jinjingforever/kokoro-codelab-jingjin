@@ -28,8 +28,7 @@
         "temperature": 1.0,
         "accelerators": "cpu,gpu"
       },
-      "taskTypes": ["llm_chat", "llm_usecases"],
-      "disabled": true
+      "taskTypes": ["llm_chat", "llm_usecases"]
     }
   ]
 }
