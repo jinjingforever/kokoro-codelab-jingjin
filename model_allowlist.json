@@ -4,6 +4,7 @@
       "name": "Gemma3-1B-IT q8",
       "modelId": "litert-community/Gemma3-1B-IT",
       "modelFile": "Gemma3-1B-IT_multi-prefill-seq_q8_ekv2048.task",
+      "description": "Some description of Gemma 3 model. 1B parameters with 8-bit quantization",
       "sizeInBytes": 1073765694,
       "version": "20250514",
       "defaultConfig": {
@@ -18,6 +19,7 @@
       "name": "Gemma3-1B-IT q4",
       "modelId": "litert-community/Gemma3-1B-IT",
       "modelFile": "Gemma3-1B-IT_multi-prefill-seq_q4_ekv2048.task",
+      "description": "Some description of Gemma 3 model. 1B parameters with 4-bit quantization",
       "sizeInBytes": 554661246,
       "version": "20250514",
       "defaultConfig": {
