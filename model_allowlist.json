@@ -13,7 +13,7 @@
         "temperature": 1.0,
         "accelerators": "cpu,gpu"
       },
-      "taskTypes": ["llm_chat", "llm_usecase"]
+      "taskTypes": ["llm_chat", "llm_usecases"]
     },
     {
       "name": "Gemma3-1B-IT q4",
@@ -28,7 +28,7 @@
         "temperature": 1.0,
         "accelerators": "cpu,gpu"
       },
-      "taskTypes": ["llm_chat", "llm_usecase"]
+      "taskTypes": ["llm_chat", "llm_usecases"]
     }
   ]
 }
