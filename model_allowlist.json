@@ -1,3 +1,5 @@
+# Add `"disabled": "true"` to prevent a model from appearing in the app
+
 {
   "models": [
     {
@@ -27,6 +29,21 @@
         "topP": 0.95,
         "temperature": 1.0,
         "accelerators": "cpu,gpu"
+      },
+      "taskTypes": ["llm_chat", "llm_usecases"]
+    },
+    {
+      "name": "SmolLM-135M-Instruct q8",
+      "modelId": "litert-community/SmolLM-135M-Instruct",
+      "modelFile": "SmolLM-135M-Instruct_multi-prefill-seq_q8_ekv1280.task",
+      "description": "A variant of [HuggingFaceTB/SmolLM-135M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM-135M-Instruct) with 8-bit quantization ready for deployment on Android using the [MediaPipe LLM Inference API](https://ai.google.dev/edge/mediapipe/solutions/genai/llm_inference)",
+      "sizeInBytes": 166754726,
+      "version": "20250514",
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 1.0,
+        "accelerators": "cpu"
       },
       "taskTypes": ["llm_chat", "llm_usecases"]
     },
