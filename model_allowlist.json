@@ -31,6 +31,21 @@
       "taskTypes": ["llm_chat", "llm_usecases"]
     },
     {
+      "name": "Phi-4-mini-instruct q8",
+      "modelId": "litert-community/Phi-4-mini-instruct",
+      "modelFile": "Phi-4-mini-instruct_multi-prefill-seq_q8_ekv1280.task",
+      "description": "A variant of [microsoft/Phi-4-mini-instruct](https://huggingface.co/microsoft/Phi-4-mini-instruct) with 8-bit quantization ready for deployment on Android using the [MediaPipe LLM Inference API](https://ai.google.dev/edge/mediapipe/solutions/genai/llm_inference)",
+      "sizeInBytes": 3944275882,
+      "version": "20250514",
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 1.0,
+        "temperature": 0.6,
+        "accelerators": "cpu"
+      },
+      "taskTypes": ["llm_chat", "llm_usecases"]
+    },
+    {
       "name": "Qwen2.5-0.5B-Instruct q8",
       "modelId": "litert-community/Qwen2.5-0.5B-Instruct",
       "modelFile": "Qwen2.5-0.5B-Instruct_multi-prefill-seq_q8_ekv1280.task",
