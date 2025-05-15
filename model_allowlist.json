@@ -41,7 +41,7 @@
         "topK": 40,
         "topP": 0.95,
         "temperature": 1.0,
-        "accelerators": "cpu,gpu"
+        "accelerators": "cpu"
       },
       "taskTypes": ["llm_chat", "llm_usecases"]
     }
